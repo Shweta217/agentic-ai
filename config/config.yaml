@@ -1,0 +1,23 @@
+# Choose backend: openai | deepseek | groq | huggingface | ollama
+backend: deepseek
+
+secret-folder: "D:\KIWI\Projects\secrets\secrets.yaml"
+
+openai:
+  api_key: "openai-api-key-secret"
+
+deepseek:
+  api_key: "deepseek-api-key-secret"
+  base_url: "https://api.deepseek.com"
+
+groq:
+  api_key: "groq-api-key-secret"
+  base_url: "https://api.groq.com/openai/v1"
+
+huggingface:
+  api_key: "huggingface-api-key-secret"
+  model: "meta-llama/Meta-Llama-3-8B-Instruct"
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "llama3"

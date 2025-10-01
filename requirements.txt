@@ -1,0 +1,11 @@
+langchain
+openai
+faiss-cpu
+requests
+pydantic
+fastapi
+uvicorn
+docker
+crewai
+pyautogen
+PyYAML
